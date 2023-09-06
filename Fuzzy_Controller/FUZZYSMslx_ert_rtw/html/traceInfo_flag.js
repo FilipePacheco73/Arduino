@@ -1,0 +1,52 @@
+function TraceInfoFlag() {
+    this.traceFlag = new Array();
+    this.traceFlag["FUZZYSMslx.c:63c25"]=1;
+    this.traceFlag["FUZZYSMslx.c:69c7"]=1;
+    this.traceFlag["FUZZYSMslx.c:69c14"]=1;
+    this.traceFlag["FUZZYSMslx.c:73c7"]=1;
+    this.traceFlag["FUZZYSMslx.c:73c14"]=1;
+    this.traceFlag["FUZZYSMslx.c:77c7"]=1;
+    this.traceFlag["FUZZYSMslx.c:77c14"]=1;
+    this.traceFlag["FUZZYSMslx.c:90c12"]=1;
+    this.traceFlag["FUZZYSMslx.c:106c23"]=1;
+    this.traceFlag["FUZZYSMslx.c:216c25"]=1;
+}
+top.TraceInfoFlag.instance = new TraceInfoFlag();
+function TraceInfoLineFlag() {
+    this.lineTraceFlag = new Array();
+    this.lineTraceFlag["FUZZYSMslx.c:42"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:45"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:48"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:51"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:54"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:63"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:64"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:66"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:69"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:70"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:73"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:74"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:77"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:78"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:90"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:91"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:92"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:93"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:94"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:95"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:97"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:98"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:99"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:100"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:101"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:106"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:107"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:201"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:204"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:207"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:210"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:213"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:216"]=1;
+    this.lineTraceFlag["FUZZYSMslx.c:217"]=1;
+}
+top.TraceInfoLineFlag.instance = new TraceInfoLineFlag();
